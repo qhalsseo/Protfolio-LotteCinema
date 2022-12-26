@@ -1,0 +1,483 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Noto Sans KR' , sans-serif;
+}
+/* Safe Area */
+.w1280{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* Aside */
+.banner {
+    background-color: rgb(41, 69, 93);
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+}
+
+
+/* Header */
+header {
+    height: 800px;
+    font-size: 14px;
+}
+.header_logo {
+    z-index: 9999;
+}
+
+header .logo_gnb_left{
+    width: 1280px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(138, 133, 133);
+    height: 60px;
+}
+header .logo_gnb_left a:hover{
+    color: red;
+}
+
+/* Header - SNS */
+header .sns {
+    /* 플롯 */
+    float: left;
+}
+header .sns li{
+    /* 플롯 */
+    float: left;
+}
+.sns_nav {
+    width: 300px;
+    font-size: 12px;
+    padding-top: 20px;
+    /* 플롯 */
+    float: left;
+}
+.sns_nav li {
+    padding-right: 10px;
+}
+.sns_nav li img{
+    padding-top: 2px;
+    padding-right: 4px;
+} 
+
+/* Header - LOGO */
+header .logo {
+    /* width: 110px; */
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 8px;
+    float: left;
+}
+header .logo img {
+    margin-left: 180px;
+    /* text-align: center; */
+}
+header nav {
+    /* 플롯 */
+    float: right;
+}
+
+/* Header - GNB메뉴 */
+header .gnb_nav{
+    /* float: right; */
+    padding-left: 100px;
+}
+header .gnb {
+    /* width: 426px; */
+    color: #000;
+    font-weight: 500;
+    font-size: 12px;
+}
+header nav .gnb li {
+    /* 플롯 */
+    float: left;
+    margin-top: 14px;
+    margin-left: 24px;
+}
+
+header nav .gnb li a:hover {
+    color: red;
+}
+
+/* =========== Header - GNB 아래메뉴 ============= */
+
+/* 1depth GNB메뉴 */
+.menu_nav {
+    /* background-color: #555; */
+    /* 위치기준값 */
+    position: relative;
+}
+#menu {
+    height: 45px;
+    line-height: 45px;
+    
+}
+.gnb_menu {
+    display: table;
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-right: 80px;
+    font-weight: 700;
+    /* 플롯 */
+    float: left;
+    
+}
+.gnb_menu li {
+    display: table-cell;
+}
+.gnb_menu li a {
+    display: table-cell;
+    width: 192px;
+    color: #000;
+    /* transition: all 0.5s; */
+}
+.gnb_menu li a:hover {
+    border-bottom: 2px solid red;
+    transform: translateY(-2px);
+}
+
+/* 회원가입 / 바로예매 */
+.third_gnb {
+    /* 플롯  */
+   float: right;
+   width: 240px;
+}
+.third_gnb li {
+    /* 플롯  */
+   float: left;
+}
+.third_gnb li a {
+   margin-right: 20px;
+}
+.third_gnb li:nth-child(2){
+   margin-right: 10px;
+}
+.third_gnb img {
+   margin-top: 20px;
+   padding-right: 8px;
+   color :#000;
+}
+
+
+
+/* 2depth 서브메뉴 */
+#menu_dept {
+    width: 100%;
+    text-align: center;
+    /* 포지션 */
+    position: absolute;
+    z-index: 100;
+    display: none;
+}
+/* 각각 서브메뉴 레이아웃 */
+.sub_menu {
+    width: 192px;
+    height: 400px;
+    padding: 30px 0;
+    border-right: 1px dotted #000;
+    /* 플롯 */
+    float: left;
+}
+.sub_menu:after {
+    /* 포지션 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 960px;
+    height: 100%;
+    content: "";
+    background-color: #fff;
+    opacity: 0.5;
+}
+.sub_menu li {
+    padding: 10px 0;
+}
+.sub_menu li:hover {
+   border-bottom: 2px solid red;
+
+}
+
+.sub_menu li a {
+    color: #000;
+}
+.sub_menu li a:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slider */
+.slider_gallery {
+    z-index: -9999;
+    height: 100%;
+}
+.slider_gallery img {
+    width: 100%;
+}
+
+
+/* Section CardBox */
+.card_box {
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    height: 700px;
+    /* background-color: #dcdcdc; */
+}
+/* 3단 CardBox */
+.card_box .card_box_view {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    /* 플롯 */
+    float: left;
+    margin-right: 40px;
+
+}
+.card_box .card_box_view img {
+    width: 400px;
+    height: 500px;
+}
+
+/* 예매율 및 평점 */
+#poster_info {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#poster_info h3{
+    float: left;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+#poster_info h4{
+    float: left;
+    width: 20px;
+    margin-top: 4px;
+    margin-right: 4px;
+    background-image: url('../images/ic_star.png');
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#poster_info h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* Section Special */
+.special {
+    padding: 100px 0 140px;
+}
+.special .special_header h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    line-height: 1.5;
+    /* 플롯 */
+    float: left;
+}
+.special .special_header  p { 
+    font-size: 14px;
+    padding-top: 20px;
+    /* 플롯 */
+    float: right;
+}
+.special .line {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px dotted #000;
+    margin-bottom: 60px;
+    /* 데코라인 가운데 오게 하기 */
+    margin: 0 auto;
+}
+.about_us_special {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+.about_us_special img {
+    margin-right: 50px;
+}
+
+/* Article Event */
+.event {
+    padding: 20px 0 140px;
+}
+.event .event_header h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    line-height: 1.5;
+    /* 플롯 */
+    float: left;
+}
+.event .event_header>p { 
+    font-size: 14px;
+    padding-top: 20px;
+    /* 플롯 */
+    float: right;
+}
+.event .line {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px dotted #000;
+    margin-bottom: 60px;
+    /* 데코라인 가운데 오게 하기 */
+    margin: 0 auto;
+}
+.about_event{
+    height: 520px;
+    margin-top: 60px;
+    padding-left: 130px;
+}
+.event .event_left {
+    width: 680px;
+    float: left;
+}
+ .event img {
+    margin: 4px 4px;
+}
+.about_event img:nth-child(1){
+    float: left;
+}
+.about_event img:nth-child(4){
+    float: left;
+}
+.about_event img:nth-child(6) {
+    float: right;
+}
+
+/*  Section SISA */
+.sisa .sisa_header h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    line-height: 1.5;
+    /* 플롯 */
+    float: left;
+}
+.sisa .sisa_header  p { 
+    font-size: 14px;
+    padding-top: 20px;
+    /* 플롯 */
+    float: right;
+}
+.sisa .line {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px dotted #000;
+    margin-bottom: 60px;
+    /* 데코라인 가운데 오게 하기 */
+    margin: 0 auto;
+}
+.about_sisa {
+    padding: 50px 150px;
+    margin: 0 auto;
+}
+
+
+/* Section Icon */
+.icon {
+    padding: 50px 150px;
+    margin-bottom: 60px;
+}
+
+/* Aside Banner2  */
+.banner2{
+    text-align: center;
+    margin: 20px ;
+    margin-bottom: 60px;
+}
+
+/* Footer Advertisment  */
+.advertisment {
+    height: 240px;
+    background-color: #ffc900;
+    margin-top: 200px;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+.advertisment img {
+    position: absolute;
+    top: -50px;
+    left: 460px;
+}
+
+/* Footer */
+.footer {
+    color: #000;
+    padding-top: 20px;
+}
+/* Footer Logo, SNS */
+.footer_logo {
+    margin-top: 50px;
+}
+.footer_left{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.footer_gnb {
+    /* 플렉스 */
+    display: flex;
+    color: rgb(22, 21, 21);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer_info {
+    margin-top: 40px;
+    font-size: 12px;
+}
+.footer_info .copy {
+    font-weight: 500;
+}
+
+
+/* Copyright */
+.footer .footer_award {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 32px;
+    background-color: rgb(207, 201, 201);
+}
+
+.footer .award+p {
+    width: 100%;
+}
+.footer .award+p img {
+    
+    padding-right: 46px;
+}
+
+/* 플롯 레이아웃 */
+.footer_logo{
+    /* 플롯 */
+    float: left;
+}
+.footer_award {
+    clear: both;
+}

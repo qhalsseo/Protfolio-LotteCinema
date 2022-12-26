@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LotteCinema</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <!-- 페이지 CSS -->
+    <link rel="stylesheet" href="./css/Lotte.css">
+     <!-- 박스 슬라이더 CSS -->
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <script src="./js/jquery.bxslider.js"></script>
+    <!-- 페이지 JS -->
+    <script src="./js/Lotte.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <!-- Topbanner -->
+        <aside class=" banner">
+            <img src="./images/banner.jpg" alt="Top Banner" width= 1280px>
+        </aside>
+        <!-- /Topbanner -->
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header_logo w1280 cf">
+                <!-- Logo, GNB -->
+                <div class="logo_gnb_left">
+                    <nav class="sns_nav">
+                        <ul class="sns">
+                            <li><a href="#"><img src="./images/gnb_facebook.png">페이스북</a></li>
+                            <li><a href="#"><img src="./images/gnb_youtube.png">유튜브</a></li>
+                            <li><a href="#"><img src="./images/gnb_follow2.png">인스타그램</a></li>
+                        </ul>
+                    </nav>
+                    <h1 class="logo"><a href="#"><img src="./images/main_logo.png" alt="메인 로고"></a></h1>
+                    <nav class="gnb_nav">
+                        <ul class="gnb">
+                            <li><a href="#">멤버쉽</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">단체관람/대관문의</a></li>
+                            <li><a href="#">로그인</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="cf">
+                    <nav class="menu_nav ">
+                        <!-- 1depth GNB메뉴 시작 -->
+                        <div id="menu">
+                            <ul class="gnb_menu">
+                                <li><a href="#">예매</a></li>
+                                <li><a href="#">영화</a></li>
+                                <li><a href="#">영화관</a></li>
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">스토어</a></li>
+                            </ul>
+                            <ul class="third_gnb">
+                                <li><a href="#"><img src="./images/nav_side_my.png">회원가입</a></li>
+                                <li><a href="#"><img src="./images/reserve.png">바로예매</a></li>
+                                <li><a href="#"><img src="./images/nav_side_all.png" alt="전체 보여주기 아이콘"></a></li>
+                            </ul>
+                        </div>
+                        <!-- /1depth GNB메뉴 끝-->
+
+                        <!-- 2depth 서브메뉴 시작-->
+                        <div id="menu_dept">
+                            <ul class="gnb_sub cf">
+                                <li>
+                                    <ul class="sub_menu">
+                                        <li><a herf="#">예매하기</a></li>
+                                        <li><a herf="#">상영시간표</a></li>
+                                        <li><a herf="#">할인안내</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <ul class="sub_menu">
+                                        <li><a herf="#">홈</a></li>
+                                        <li><a herf="#">현재상영작</a></li>
+                                        <li><a herf="#">상영예정작</a></li>
+                                        <li><a herf="#">아르떼</a></li>
+                                        <li><a herf="#">국립극장</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <ul class="sub_menu">
+                                        <li><a herf="#">스페셜관</a></li>
+                                        <li><a herf="#">서울</a></li>
+                                        <li><a herf="#">경기/인천</a></li>
+                                        <li><a herf="#">충천/대전</a></li>
+                                        <li><a herf="#">전라/광주</a></li>
+                                        <li><a herf="#">경북/대구</a></li>
+                                        <li><a herf="#">경남/부산/울산</a></li>
+                                        <li><a herf="#">강원</a></li>
+                                        <li><a herf="#">제주</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <ul class="sub_menu">
+                                        <li><a herf="#">홈</a></li>
+                                        <li><a herf="#">영화</a></li>
+                                        <li><a herf="#">시사회/무대인사</a></li>
+                                        <li><a herf="#">HOT</a></li>
+                                        <li><a herf="#">제휴할인</a></li>
+                                        <li><a herf="#">우리동네영화관</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <ul class="sub_menu no_bd">
+                                        <li><a herf="#">베스트</a></li>
+                                        <li><a herf="#">관람권</a></li>
+                                        <li><a herf="#">스낵음료</a></li>
+                                        <li><a herf="#">포토카드</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- /2depth 서브메뉴 끝-->                        
+                    </nav>
+                </div>
+                <!-- /Logo, GNB -->
+            </div>
+            <!-- Slider -->
+            <div>
+                <ul class="slider_gallery">
+                    <li><img src="./images/slider1.jpg" alt="슬라이드01"></li>
+                    <li><img src="./images/slider2.jpg" alt="슬라이드02"></li>
+                    <li><img src="./images/slider3.jpg" alt="슬라이드03"></li>
+                </ul>
+            </div>
+            <!-- /Slider -->
+        </header>
+        <!-- /Header -->    
+
+        <!-- Section CardBox -->
+        <section class="card_box">
+            <div class="w1280 cf">
+                <!-- 3단 CardBox -->
+                <div class="card_box_view">
+                    <h2><a href="#"><img src="./images/poster01.jpg" alt="포스터1"></a></h2>
+                    <div id="poster_info">
+                        <h3>예매율 75.1 %&nbsp;&nbsp; |</h3>
+                        <h4>&nbsp;</h4>
+                        <h5> 9.5</h5>
+                    </div>
+                </div>
+                <div class="card_box_view">
+                    <h2><a href="#"><img src="./images/poster04.jpg" alt="포스터2"></a></h2>
+                    <div id="poster_info">
+                        <h3>예매율 14.0 %&nbsp;&nbsp; |</h3>
+                        <h4>&nbsp;</h4>
+                        <h5> 8.4</h5>
+                    </div>
+                </div>
+                <div class="card_box_view no_mr">
+                    <h2><a href="#"><img src="./images/poster03.jpg" alt="포스터3"></a></h2>
+                    <div id="poster_info">
+                        <h3>예매율 14.8 %&nbsp;&nbsp; |</h3>
+                        <h4>&nbsp;</h4>
+                        <h5> 9.3</h5>
+                    </div>
+                </div>
+
+                <!-- /3단 CardBox -->
+            </div>
+        </section>
+        <!-- /Section CardBox -->
+
+        <!-- Section Special -->
+        <section class="special w1280">
+            <div class="special_header cf">
+                <h2>스페셜관</h2>
+                <p><a herf="#">더보기 > </a></p>
+            </div>
+            <div class="line"></div>
+            <p class="about_us_special">
+                <img src="./images/carlotte.png" alt="샤롯데">
+                <img src="./images/sPlex.png" alt="슈퍼플렉스">
+                <img src="./images/superS.png" alt="슈퍼s">
+                <img src="./images/super4d.png" alt="슈퍼4d">
+                <img src="./images/colorium.png" alt="컬러리움">
+                <img src="./images/cineComfort.png" alt="시네컴포트">
+                <img src="./images/cineCouple.png" alt="시네커플">
+                <img src="./images/cineFamily.png" alt="시네패밀리">
+            </p>
+        </section>
+        <!-- /Section Special -->
+
+        <!-- Article Event -->
+        <article class="event w1280 cf">
+            <div class="event_header cf">
+                <h2>이벤트</h2>
+                <p><a herf="#">더보기 > </a></p>
+            </div>
+            <div class="line"></div>
+            <div class="about_event">
+                <div class="event_left">
+                    <a href="#"><img src="./images/event01.jpg" alt="이벤트1"></a>
+                    <a href="#"><img src="./images/event02.jpg" alt="이벤트2"></a>
+                    <a href="#"><img src="./images/event03.jpg" alt="이벤트3"></a>
+                    <a href="#"><img src="./images/event04.jpg" alt="이벤트4"></a>
+                    <a href="#"><img src="./images/event05.jpg" alt="이벤트5"></a>
+                </div>
+                <a href="#"><img src="./images/event06.jpg" alt="이벤트6"></a>
+            </div>
+        </article>
+        <!-- /Article Event -->
+
+        <!-- Section SISA -->
+        <section class="sisa w1280 cf">
+            <div class="sisa_header cf">
+                <h2>시사회 / 무대인사</h2>
+                <p><a herf="#">더보기 > </a></p>
+            </div>
+            <div class="line"></div>
+            <div class="about_sisa">
+                <a href="#"><img src="./images/sisa1.png" alt="무대인사/시사회1"></a>
+                <a href="#"><img src="./images/sisa2.jpg" alt="무대인사/시사회2"></a>
+                <a href="#"><img src="./images/sisa3.jpg" alt="무대인사/시사회3"></a>
+            </div>
+        </section>
+        <!-- /Section SISA -->
+
+        <!-- Section Icon -->
+        <section class="w1280 icon">
+            <h2>
+                <a href="#"><img src="./images/icon01.png" alt="아이콘1"></a>
+                <a href="#"><img src="./images/icon02.png" alt="아이콘2"></a>
+                <a href="#"><img src="./images/icon03.png" alt="아이콘3"></a>
+                <a href="#"><img src="./images/icon04.png" alt="아이콘4"></a>
+                <a href="#"><img src="./images/icon05.png" alt="아이콘5"></a>
+            </h2>
+        </section>
+        <!-- /Section FAQ -->
+
+        <!-- Aside Banner2 -->
+        <aside class="banner2">
+            <h3 class=" w1280">
+                <a href="#"><img src="./images/banner2.jpg" alt="배너2"></a>
+            </h3>
+        </aside>
+        <!-- /Aside Banner -->
+
+        <!-- Footer Advertisment -->
+        <article class="advertisment">
+            <a href="#">
+                <img src="./images/footer_adver.png" alt="푸터광고">
+            </a>
+        </article>
+        <!-- /Footer Advertisment -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="w1280">
+                <!-- Footer Logo, SNS -->
+                <dl class="footer_logo">
+                    <dt><img src="./images/logo_footer.gif" alt="롯데시네마 로고"></dt>
+                    <div class="footer_left">
+                        <nav>
+                            <ul class="footer_gnb">
+                                <li><a href="#">이용약관&nbsp;&nbsp; |</a></li>
+                                <li><a href="#">&nbsp;&nbsp;개인정보처리방침&nbsp;&nbsp;|</a></li>
+                                <li><a href="#">&nbsp;&nbsp;이메일무단수집거부&nbsp;&nbsp;|</a></li>
+                                <li><a href="#">&nbsp;&nbsp;영상정보처리기기 운영 및 관리방침&nbsp;&nbsp;|</a></li>
+                                <li><a href="#">&nbsp;&nbsp;L.PINT회원안내&nbsp;&nbsp;|</a></li>
+                                <li><a href="#">&nbsp;&nbsp;배정기준&nbsp;&nbsp;|</a></li>
+                                <li><a href="#">&nbsp;&nbsp;채용안내&nbsp;&nbsp;|</a></li>
+                                <li><a href="#">&nbsp;&nbsp;광고/임대문의&nbsp;&nbsp;|</a></li>
+                                <li><a href="#">&nbsp;&nbsp;기업정보&nbsp;&nbsp;|</a></li>
+                                <li><a href="#">&nbsp;&nbsp;사회적책임&nbsp;&nbsp;</a></li>
+                            </ul>
+                        </nav>
+                        <div class="footer_info">
+                            <p>
+                                서울특별시 송파구 올림픽로 300 롯데월드타워 27층 | 고객센터 1544-8855 <br>
+                                대표이사 최병환 | 사업자등록번호 313-87-00979 | 통신판매신고번호 제1184호 | 개인정보보호 최고 책임자 김무성 <br>
+                            </p>
+                            <br>
+                            <p class="copy">
+                                COPYRIGHT© LOTTE CINEMA ALL RIGHT RESERVED.
+                            </p>
+    
+                        </div>
+                    </div>
+                </dl>
+                <!-- /Footer Logo, SNS -->
+            </div>
+
+                <!-- Copyright -->
+            <div class="footer_award">
+                <div class="award"></div>
+                <p>
+                    <img src="./images/footer1.png" alt="award">
+                    <img src="./images/footer2.png" alt="award">
+                    <img src="./images/footer3.png" alt="award">
+                    <img src="./images/footer4.png" alt="award">
+                    <img src="./images/footer5.png" alt="award">
+                    <img src="./images/footer6.png" alt="award">                        <img src="./images/footer7.png" alt="award">
+                    <img src="./images/footer8.png" alt="award">
+                </p>
+            </div>
+            <!-- /Copyright -->
+        </footer>
+        <!-- /Footer -->
+    </div>
+</body>
+</html>
